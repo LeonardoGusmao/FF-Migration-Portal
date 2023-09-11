@@ -114,7 +114,6 @@ function Documentation() {
                                             </Tile>
                                         </a>
                                     </div>
-                                    
                                     <div>
                                         <a href="https://ishareteam6.na.xom.com/sites/DigProcdrs/Shared%20Documents/Approving%20a%20Digital%20Procedure.pptx?web=1" target="_blank">
                                             <Tile color="main" className={styles.tilecustom}>
@@ -128,6 +127,8 @@ function Documentation() {
                                     </div>
                                 </Tile.List>
                             </Accordian.Item>
+                        </Accordian>
+                        <Accordian expanded={expandedItem} onChange={handleOnChange} >
                             <Accordian.Item title="Executing Procedures" value={2}>
                                 <Tile.List className={styles.tilelistcustom}>
                                     <div>
@@ -189,6 +190,8 @@ function Documentation() {
                                 </a>
                             </Tile.List>
                         </Accordian.Item>
+                    </Accordian>
+                    <Accordian expanded={expandedItem} onChange={handleOnChange} >
                         <Accordian.Item title="Additional Features" value={4}>
                             <Tile.List className={styles.tilelistcustom}>
                                 <a href="https://ishareteam6.na.xom.com/sites/DigProcdrs/Shared%20Documents/SKELTA%20Replication%20Playbook_Digital%20Procedures.pptx?web=1" target="_blank">
